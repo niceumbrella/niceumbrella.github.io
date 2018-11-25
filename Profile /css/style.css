@@ -1,0 +1,77 @@
+html,
+body {
+	height: 100%;
+
+}
+body {
+	/*background-color: #3333; */
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	font-family: Helvetica, sans-serif;
+}
+
+.main {
+	background-color: rgba(255, 255, 255, 0.75);
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+
+}
+
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-shadow: 0 0 10px black;
+	text-align: center;
+	font-size: 48px;
+	background-color: none;
+}
+
+h2{
+	text-align:center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-weight: normal;
+
+}
+
+img {
+
+	/*Centres the image */
+	display: block;
+	margin: 0 auto;
+	border: 2.5px solid black;
+	border-radius: 25%;
+	width: 500px;
+
+}
+
+h3 {
+	background-color: #3333;
+	color: white;
+	padding
+	margin-bottom: 0;
+	cursor: pointer;
+
+}
+
+ol,
+ul {
+	list-style: none;
+	padding-left: 0;
+
+}
+
+a {
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}
+a: hover {
+	color: pink;
+	text-decoration: underline;
+
+}
